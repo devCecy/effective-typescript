@@ -35,8 +35,6 @@ const c: AB = "C";
 // ~ Type '"C"' is not assignable to type 'AB'
 ```
 
-</br>
-
 ## 인터섹션(intersection)
 
 인터섹션은 &연산자를 사용하여 두 타입의 교집합을 나타냅니다.
@@ -64,3 +62,5 @@ type K = keyof (Person | Lifespan);  // Type is never
 ```
 
 ## 요약
+
+<img src="../assets/ch_2_item_7_1.jpeg" />
